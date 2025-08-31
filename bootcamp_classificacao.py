@@ -160,7 +160,7 @@ def remove_outliers_iqr(df, column, category_col=None):
         mask = (df[column] >= Q1 - 1.5 * IQR) & (df[column] <= Q3 + 1.5 * IQR)
         return df[mask]
 
-df = pd.read_csv('../bootcamp_train.csv')
+df = pd.read_csv('bootcamp_train.csv')
 
 df
 
