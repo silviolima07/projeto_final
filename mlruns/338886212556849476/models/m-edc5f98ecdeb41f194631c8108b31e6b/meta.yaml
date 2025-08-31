@@ -1,0 +1,10 @@
+artifact_location: file:///d:/Users/silvi/Desktop/RESID_UNI_SENAI/PROJETO_FINAL/FINAL/mlruns/338886212556849476/models/m-edc5f98ecdeb41f194631c8108b31e6b/artifacts
+creation_timestamp: 1756677520717
+experiment_id: '338886212556849476'
+last_updated_timestamp: 1756677527429
+model_id: m-edc5f98ecdeb41f194631c8108b31e6b
+model_type: null
+name: model
+source_run_id: 1c8697afa4dd4a2cb9a8d747532792f9
+status: 2
+status_message: null
