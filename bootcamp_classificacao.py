@@ -13,7 +13,7 @@ Se a falha não for confirmada, a paralisação se converte numa manutenção pr
 Foi considerado que o custo dessa paralisação é proporcionalmente bem menor do que se a falha fosse real.
 
 O dataset apresentou um alto desbalanceamento de classes.
-A classe Falha Alestória tem apenas uma amostra no dataset, sendo assim considerado um erro raro.
+A classe Falha Alestória tem apenas uma amostra no dataset, sendo assim considerado uma falha rara.
 """
 
 import numpy as np
