@@ -9,7 +9,7 @@ Foram treinados e avaliados:
 O MLFlow foi usado para salvar os artefatos gerados durante os experimentos.
 A métrica Recall foi priorizada devido ao contexto onde as falhas podem ocorrer e gerar um grande impacto nos negocios da empresa.
 Um alto Recall pode gerar Falsos Positivos, o que implica numa paralisação para investigação e conserto da maquina.
-Se a falha não for confirmada, a paralisação se converta numa manutenção preventiva.
+Se a falha não for confirmada, a paralisação se converte numa manutenção preventiva.
 Foi considerado que o custo dessa paralisação é proporcionalmente bem menor do que se a falha fosse real.
 
 O dataset apresentou um alto desbalanceamento de classes.
