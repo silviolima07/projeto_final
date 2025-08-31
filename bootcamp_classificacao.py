@@ -19,6 +19,7 @@ Foram aplicadas diversas estratégias para lidar com o desbalanceamento:
 - Ajuste do peso das classes
 - Amostragem com SMOTE
 
+
 """
 
 import numpy as np
