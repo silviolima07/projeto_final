@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Users/silvi/Desktop/RESID_UNI_SENAI/PROJETO_FINAL/FINAL/mlruns/338886212556849476/48c3f61f3a98453ab0948d2f06cb7cb0/artifacts
+end_time: 1756658128664
+entry_point_name: ''
+experiment_id: '338886212556849476'
+lifecycle_stage: active
+run_id: 48c3f61f3a98453ab0948d2f06cb7cb0
+run_name: GradientBoosting
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756658108056
+status: 3
+tags: []
+user_id: Silvio Cesar

@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Users/silvi/Desktop/RESID_UNI_SENAI/PROJETO_FINAL/FINAL/mlruns/338886212556849476/092ae4998ef148b3bfff79aa943e4fd7/artifacts
+end_time: 1756658623974
+entry_point_name: ''
+experiment_id: '338886212556849476'
+lifecycle_stage: active
+run_id: 092ae4998ef148b3bfff79aa943e4fd7
+run_name: LogisticRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756658616072
+status: 3
+tags: []
+user_id: Silvio Cesar

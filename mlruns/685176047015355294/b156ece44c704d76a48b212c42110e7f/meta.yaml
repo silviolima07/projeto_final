@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Users/silvi/Desktop/RESID_UNI_SENAI/PROJETO_FINAL/FINAL/mlruns/685176047015355294/b156ece44c704d76a48b212c42110e7f/artifacts
+end_time: 1756653022544
+entry_point_name: ''
+experiment_id: '685176047015355294'
+lifecycle_stage: active
+run_id: b156ece44c704d76a48b212c42110e7f
+run_name: DummyClassifier_Baseline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756653019674
+status: 3
+tags: []
+user_id: Silvio Cesar

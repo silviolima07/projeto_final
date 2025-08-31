@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Users/silvi/Desktop/RESID_UNI_SENAI/PROJETO_FINAL/FINAL/mlruns/338886212556849476/2919fac694ca4b5bb970014fb954179e/artifacts
+end_time: 1756653488529
+entry_point_name: ''
+experiment_id: '338886212556849476'
+lifecycle_stage: active
+run_id: 2919fac694ca4b5bb970014fb954179e
+run_name: XGBoost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756653470715
+status: 3
+tags: []
+user_id: Silvio Cesar

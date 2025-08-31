@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Users/silvi/Desktop/RESID_UNI_SENAI/PROJETO_FINAL/FINAL/mlruns/857225000552900417/51f3560b4c7c4114932366c4e47dfa44/artifacts
+end_time: 1756654411747
+entry_point_name: ''
+experiment_id: '857225000552900417'
+lifecycle_stage: active
+run_id: 51f3560b4c7c4114932366c4e47dfa44
+run_name: RandomForest_sem_balanceamento
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756654409869
+status: 3
+tags: []
+user_id: Silvio Cesar

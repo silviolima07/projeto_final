@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Users/silvi/Desktop/RESID_UNI_SENAI/PROJETO_FINAL/FINAL/mlruns/857225000552900417/c20b5de077a84522b77d7eb6d31c382f/artifacts
+end_time: 1756595824320
+entry_point_name: ''
+experiment_id: '857225000552900417'
+lifecycle_stage: active
+run_id: c20b5de077a84522b77d7eb6d31c382f
+run_name: XGBoost_sem_balanceamento
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756595824245
+status: 4
+tags: []
+user_id: Silvio Cesar

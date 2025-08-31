@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Users/silvi/Desktop/RESID_UNI_SENAI/PROJETO_FINAL/FINAL/mlruns/857225000552900417/075d0afd0dc24d5d86a308470c418cc6/artifacts
+end_time: 1756597667200
+entry_point_name: ''
+experiment_id: '857225000552900417'
+lifecycle_stage: active
+run_id: 075d0afd0dc24d5d86a308470c418cc6
+run_name: KNN_sem_balanceamento
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756597634830
+status: 4
+tags: []
+user_id: Silvio Cesar
