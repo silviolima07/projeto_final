@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Users/silvi/Desktop/RESID_UNI_SENAI/PROJETO_FINAL/FINAL/mlruns/813575230785718044/babe3d77f8b94b86964db4e7905596bf/artifacts
+end_time: 1756732038718
+entry_point_name: ''
+experiment_id: '813575230785718044'
+lifecycle_stage: active
+run_id: babe3d77f8b94b86964db4e7905596bf
+run_name: ClassifierChain
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756732035763
+status: 3
+tags: []
+user_id: Silvio Cesar

@@ -83,7 +83,8 @@ def plot_histograms(df, column, category_col, bins, custom_labels=None):
     plt.title(f'Histograma de {column} por {category_col}')
     plt.xlabel(column)
     plt.ylabel('Frequência')
-    plt.show()
+    plt.show(block=False)
+    plt.close()
     print( ' ')
 
 def plot_stacked_barplot(df, column, category_col=None, custom_labels=None):
@@ -110,7 +111,8 @@ def plot_stacked_barplot(df, column, category_col=None, custom_labels=None):
     plt.ylabel('Contagem')
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.show()
+    plt.show(block=False)
+    plt.close()
     print('')
 
 def plot_boxplots_category(df, column, category_col, custom_labels=None):
@@ -128,7 +130,8 @@ def plot_boxplots_category(df, column, category_col, custom_labels=None):
     plt.xlabel(category_col)
     plt.ylabel(column)
     plt.tight_layout()
-    plt.show()
+    plt.show(block=False)
+    plt.close()
     print( ' ')
 
 def plot_correlation_matrix(df):
@@ -146,7 +149,8 @@ def plot_correlation_matrix(df):
     correlation_matrix = corr_df.corr()
     sns.heatmap(correlation_matrix, annot=True, cmap='Blues', fmt='.2f', linewidths=0.5)
     plt.title('Matriz de Correlação')
-    plt.show()
+    plt.show(block=False)
+    plt.close()
 
 def remove_outliers_iqr(df, column, category_col=None):
     if category_col:
@@ -400,7 +404,7 @@ df_binario.shape
 
 """# Visualizar a distribuicao de cada coluna"""
 
-df_binario.hist();
+# df_binario.hist(); # Comentado para evitar muitos gráficos na execução
 
 numerical = df_binario.select_dtypes(include=np.number).columns.tolist()
 categorical = df_binario.columns.difference(numerical).to_list()
@@ -421,10 +425,10 @@ for column in categorical:
 - identificar valores outliers, alem do limites aceitáveis.
 - Limite definido pelos quartis gerados na distribuição dos dados.
 """
-
-for column in numerical:
-  if column != 'classe_binaria':
-    plot_boxplots_category(df_binario, column, 'classe_binaria')
+# Comentado para evitar muitos gráficos na execução
+#for column in numerical:
+#  if column != 'classe_binaria':
+#    plot_boxplots_category(df_binario, column, 'classe_binaria')
 
 """# Identificar correlação"""
 
@@ -440,7 +444,7 @@ correlation_with_classe_binaria = correlation_matrix['classe_binaria']
 # Display the correlations
 print(correlation_with_classe_binaria)
 
-plot_correlation_matrix(df_binario)
+# plot_correlation_matrix(df_binario)
 
 """# DATASET DESBALANCEADO
 
@@ -2002,7 +2006,7 @@ for j in range(len(target_columns), len(axes)):
 
 plt.tight_layout()
 plt.savefig('report_multilabel\chain_confusion_matrixes_multilabel.png')
-plt.show()
+plt.show(block=False)
 
 # Analisar cada label individualmente
 for i, coluna in enumerate(target_columns):
@@ -2055,4 +2059,4 @@ for j in range(len(target_columns), len(axes)):
     fig.delaxes(axes[j])
 
 plt.tight_layout()
-plt.show()
+plt.show(block=False)

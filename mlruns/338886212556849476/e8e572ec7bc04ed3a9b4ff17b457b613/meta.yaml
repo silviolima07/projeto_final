@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Users/silvi/Desktop/RESID_UNI_SENAI/PROJETO_FINAL/FINAL/mlruns/338886212556849476/e8e572ec7bc04ed3a9b4ff17b457b613/artifacts
+end_time: 1756730938696
+entry_point_name: ''
+experiment_id: '338886212556849476'
+lifecycle_stage: active
+run_id: e8e572ec7bc04ed3a9b4ff17b457b613
+run_name: KNN
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756730889371
+status: 3
+tags: []
+user_id: Silvio Cesar

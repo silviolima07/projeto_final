@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Users/silvi/Desktop/RESID_UNI_SENAI/PROJETO_FINAL/FINAL/mlruns/813575230785718044/f1b221209e704d529dce228e4756ab83/artifacts
+end_time: 1756732290058
+entry_point_name: ''
+experiment_id: '813575230785718044'
+lifecycle_stage: active
+run_id: f1b221209e704d529dce228e4756ab83
+run_name: MultiOutputClassifier
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756732288198
+status: 3
+tags: []
+user_id: Silvio Cesar

@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Users/silvi/Desktop/RESID_UNI_SENAI/PROJETO_FINAL/FINAL/mlruns/338886212556849476/875195f98b0647ee8c14c49dc6371f87/artifacts
+end_time: 1756730531037
+entry_point_name: ''
+experiment_id: '338886212556849476'
+lifecycle_stage: active
+run_id: 875195f98b0647ee8c14c49dc6371f87
+run_name: RandomForest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756730514207
+status: 3
+tags: []
+user_id: Silvio Cesar
