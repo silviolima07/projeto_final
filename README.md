@@ -85,7 +85,7 @@ Por último, como haviam amostras indicando mais de um tipo de falha nas amostra
  Cada classe de falha foi identifica e as métricas precision, recall, f1-score apresentadas.
  O melhor modelo entre os dois pode ser definido comparando as mesmas métricas obtidas entre os modelos.
  Um modelo pode ser o melhor para uma classe segundo uma métrica e não ser para outra classe.
- A quantidade de amostras de cada tipo de falha, impacta diretamente na performance da modelo e consequentemente na escolha da métrica de avaliação
+ A quantidade de amostras de cada tipo de falha, impacta na performance da modelo e na escolha da métrica de avaliação.
 
  # ClassifierChain
  
