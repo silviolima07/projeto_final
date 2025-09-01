@@ -1,6 +1,7 @@
 # Modelo de Classificação de Falhas em Máquinas
 
 Este projeto implementa um modelo de classificação de falhas em máquinas numa linha de produção.
+
 Contexto: 
 - Dataset gerado a partir de sensores instalados em diversas máquinas numa linha de produção.
 - Sensores informam a ocorrência de falha ou não ao longo do tempo.
