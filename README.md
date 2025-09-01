@@ -87,8 +87,11 @@ Por último, como haviam amostras indicando mais de um tipo de falha nas amostra
  Um modelo pode ser o melhor para uma classe segundo uma métrica e não ser para outra classe.
  A quantidade de amostras de cada tipo de falha, impacta diretamente na performance da modelo e consequentemente na escolha da métrica de avaliação
 
+ # ClassifierChain
  
 <img width="1769" height="1189" alt="image" src="https://github.com/user-attachments/assets/ec35a5c7-69d1-4478-b9f2-4063f6922fc7" />
+
+# MultiOutputClassifier
 
 <img width="1800" height="1200" alt="multi_confusion_matrices_multilabel" src="https://github.com/user-attachments/assets/c04b2830-1714-4cc7-b573-fa9412e49474" />
 
