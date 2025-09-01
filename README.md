@@ -31,13 +31,13 @@ Diversas estratégias foram aplicadas para lidar com o desbalanceamento:
 - Ajuste do peso das classes
 - Amostragem com **SMOTE**
 
-  ## Análise Exploratória
+## Análise Exploratória
 
-  O dataset de treinamento foi analisado e várias inconsistencias foram encontradas e solucionadas.
-  Foram identificados:
-  - falta de padronização nas colunas que indicam o ocorrência ou não de falhas
-  - alto de desbalanceamento da classe que indica se houve ou nao falha e também entre as classes que indicam o tipo de falha
-  - valores fora dos limites de distribuição dos dados, sendo considerados outliers
+O dataset de treinamento foi analisado e várias inconsistencias foram encontradas e solucionadas.
+Foram identificados:
+- falta de padronização nas colunas que indicam o ocorrência ou não de falhas
+- alto de desbalanceamento da classe que indica se houve ou nao falha e também entre as classes que indicam o tipo de falha
+- valores fora dos limites de distribuição dos dados, sendo considerados outliers
 
 ## Modelos Treinados
 
@@ -81,18 +81,18 @@ Por último, como haviam amostras indicando mais de um tipo de falha nas amostra
 - MultiOutputClassifier
 - ClassifierChain
 
- # Estratégia
+# Estratégia
 
- Para esses modelos foi usado o modelo RandomForestClassifier como auxiliar.
+Para esses modelos foi usado o modelo RandomForestClassifier como auxiliar.
 
- # Resultados
+# Resultados
 
- Cada classe de falha foi identifica e as métricas precision, recall, f1-score apresentadas.
- O melhor modelo entre os dois pode ser definido comparando as mesmas métricas obtidas entre os modelos.
- Um modelo pode ser o melhor para uma classe segundo uma métrica e não ser para outra classe.
- A quantidade de amostras de cada tipo de falha, impacta na performance da modelo e na escolha da métrica de avaliação.
+Cada classe de falha foi identifica e as métricas precision, recall, f1-score apresentadas.
+O melhor modelo entre os dois pode ser definido comparando as mesmas métricas obtidas entre os modelos.
+Um modelo pode ser o melhor para uma classe segundo uma métrica e não ser para outra classe.
+A quantidade de amostras de cada tipo de falha, impacta na performance da modelo e na escolha da métrica de avaliação.
 
- # ClassifierChain
+# ClassifierChain
  
 <img width="1769" height="1189" alt="image" src="https://github.com/user-attachments/assets/ec35a5c7-69d1-4478-b9f2-4063f6922fc7" />
 
