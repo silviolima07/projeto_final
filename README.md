@@ -1,7 +1,11 @@
 # Modelo de Classificação de Falhas em Máquinas
 
 Este projeto implementa um modelo de classificação de falhas em máquinas numa linha de produção.
-
+Contexto: 
+- Dataset gerado a partir de sensores instalados em diversas máquinas numa linha de produção.
+- Sensores informam a ocorrência de falha ou não ao longo do tempo.
+- São identificados 5 tipos de falhas possíveis.
+  
 ## Abordagens Utilizadas
 
 Foram treinados e avaliados diferentes tipos de classificação:
@@ -37,7 +41,7 @@ Diversas estratégias foram aplicadas para lidar com o desbalanceamento:
 ## Modelos Treinados
 
 Foram treinados modelos de classificação binária, multiclasse e multilabel.
-Dessa forma de acordo com o objetivo, pode-se classificar uma nova amostra de dados se indica falha ou não (binária), que classe foi classificada (multiclasse) ou quais classes foram identificadas, podem ser uma ou mais falhas (multilabel)
+Dessa forma de acordo com o objetivo, pode-se classificar uma nova amostra de dados se indica falha ou não (binária), que classe foi classificada (multiclasse) ou quais classes foram identificadas, podem ser uma ou mais falhas (multilabel).
 
 # Classe Binária
 
